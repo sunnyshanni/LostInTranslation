@@ -81,4 +81,7 @@ public class CountryCodeConverter {
     public int getNumCountries() {
         return this.countryCodeToCountry.size();
     }
+    public String[] allCountryNames(){
+        return this.countryCodeToCountry.values().toArray(new String[0]);
+    }
 }

@@ -50,6 +50,10 @@ public class LanguageCodeConverter {
         }
     }
 
+    public String[] allLanguageNames() {
+        return languageToLanguageCode.keySet().toArray(new String[0]);
+    }
+
     /**
      * Return the name of the language for the given language code.
      * @param code the 2-letter language code
